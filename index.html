@@ -12,17 +12,44 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="header__inner">
+           <div class="header__inner">
                 <div class="header__logo">Main page</div>
                     <nav>
                         <a class="nav__link" href="#">Nature</a>
                         <a class="nav__link" href="#">Mobile</a>
                         <a class="nav__link" href="#">PC</a>
-                        <a class="nav__link" href="#">Galaxy</a>
-                        <a class="nav__link" href="#">contact</a>
+                        <a class="nav__link" href="#">About</a>
+                        <a class="nav__link" href="#">Contact</a>
                     </nav>
             </div>
         </div>
+
+        <div id="chat-widget">
+            <div id="chat-header">Chat with us</div>
+            <div id="chat-messages">
+              <div class="message-container">
+                <div class="message-bubble">
+                  Hi there! How can we help you today?
+                </div>
+                <div class="message-info">
+                  Customer Support, 12:30 PM
+                </div>
+              </div>
+              <div class="message-container">
+                <div class="message-bubble user-message">
+                  Hi, I have a question about your product.
+                </div>
+                <div class="message-info">
+                  User, 12:32 PM
+                </div>
+              </div>
+            </div>
+            <div id="chat-input">
+              <textarea placeholder="Type a message..."></textarea>
+              <button>Send</button>
+            </div>
+          </div>
+
     </header>
     <div class="intro">
         <div class="container">
@@ -68,9 +95,27 @@
                     <p>Here you can find outstanding views</p>
                 </div>
             </div>
+
+            <div class="about">
+                <div class="about__item">
+                    <div class="about__img">
+                        <img src="img/artworks-01.jpg" alt="">
+                    </div>
+                </div>
+                <div class="about__item">
+                    <div class="about__img">
+                        <img src="img/artworks-02.jpg" alt="">
+                    </div>
+                </div>
+                <div class="about__item">
+                    <div class="about__img">
+                        <img src="img/artworks-03.jpg" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <script src="main.js"></script>
+    <script src="script.js"></script>
     <noscript>Turn on JavaScript!!!</noscript>\
 </body>
 </html>
